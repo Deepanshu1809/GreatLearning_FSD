@@ -1,0 +1,28 @@
+package GradedAssessment1;
+
+public class techDepartment extends superDepartment{
+
+	public techDepartment() {
+		System.out.println(departmentName());
+		System.out.println(getTodayssWork());
+		System.out.println(getWorkDeadline());
+		System.out.println(getTechStackInformation());
+		System.out.println(isTodayAHoliday());
+	}
+	
+	public String departmentName() {
+		return " Tech Department ";
+	}
+	
+	public String getTodayssWork() {
+		return " Complete coding of module 1";
+	}
+	
+	public String getWorkDeadline() {
+		return " Complete by EOD " ;
+	}
+	
+	public String getTechStackInformation() {
+		return " Core Java" ;
+	}
+}

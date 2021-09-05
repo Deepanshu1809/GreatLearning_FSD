@@ -1,0 +1,17 @@
+package GradedAssessment1;
+
+public class MainClass {
+
+	public static void main(String[] args) {
+		
+		System.out.println();
+		hrDepartment hr = new hrDepartment() ;
+		System.out.println();
+		adminDepartment admin = new adminDepartment() ;
+		System.out.println();
+		techDepartment tech = new techDepartment() ;
+		System.out.println();
+		
+	}
+
+}

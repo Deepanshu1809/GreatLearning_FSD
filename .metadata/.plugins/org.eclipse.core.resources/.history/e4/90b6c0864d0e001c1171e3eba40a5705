@@ -1,0 +1,19 @@
+package GradedAssessment1;
+
+public class MainClass {
+
+	public static void main(String[] args) {
+		
+		hrDepartment hr = new hrDepartment() ;
+		adminDepartment admin = new adminDepartment() ;
+		techDepartment tech = new techDepartment() ;
+		
+		System.out.println(admin.isTodayAHoliday()) ;
+		
+		hr.departmentName();
+		hr.getTodayssWork();
+		hr.getWorkDeadline();
+		
+	}
+
+}
