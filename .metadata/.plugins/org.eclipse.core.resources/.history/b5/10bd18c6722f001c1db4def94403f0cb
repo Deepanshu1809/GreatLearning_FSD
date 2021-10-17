@@ -39,6 +39,8 @@ public class MainClass {
 		
 		String empfname = employee.getFirstName().toLowerCase();
 		String emplname = employee.getLastName().toLowerCase() ;
+
+		//generatedEmail = cs.generateEmailAddress(empfname , emplname , dept);
 		
 		cs.showCredentials(empfname , emplname , dept);
 
