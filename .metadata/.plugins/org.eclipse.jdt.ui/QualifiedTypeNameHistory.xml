@@ -9,4 +9,8 @@
     <fullyQualifiedTypeName name="org.openqa.selenium.Keys"/>
     <fullyQualifiedTypeName name="java.lang.Thread"/>
     <fullyQualifiedTypeName name="org.openqa.selenium.WebElement"/>
+    <fullyQualifiedTypeName name="GradedAssessment1.superDepartment"/>
+    <fullyQualifiedTypeName name="GradedAssessment1.hrDepartment"/>
+    <fullyQualifiedTypeName name="GradedAssessment1.adminDepartment"/>
+    <fullyQualifiedTypeName name="GradedAssessment1.techDepartment"/>
 </qualifiedTypeNameHistroy>
