@@ -1,0 +1,43 @@
+.navbar{
+    background-color: gray;
+    margin: 0%;
+    padding-left: 20px;
+    display: flex;
+    position: fixed;
+    height:60px;
+    width:100%;
+
+}
+
+.Header1{
+    background-color: red;
+    padding: 10px;
+    margin: 0%;
+    width: 100%;
+}
+
+.navbarContents{
+  height: 20px;
+  width: 80px;
+}
+
+
+h1{
+    text-align: end;
+    padding-right: 40px;
+}
+.dropdown{
+    display: none;
+    z-index: 1;
+    background-color: #DFDEDE;
+    width: 100px;
+    padding: 1px 3px 1px 15px;
+}
+.dropdown p{
+    color: rgb(26, 142, 249);
+}
+.navbarContents:hover .dropdown{
+    display: block;
+
+    
+}

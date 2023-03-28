@@ -1,0 +1,38 @@
+input:focus{
+    background-color: #4682b4;
+    opacity: 0.35;   
+
+}
+
+input{
+    height: 30px;
+    width: 300px;
+    padding: 10px;
+    margin: 1% 15%;
+    border: 0px;
+}
+h1{
+    text-align: center;
+}
+
+button{
+    padding: 10px 30px;
+    background-color: rgb(169, 101, 233);
+    color: white;
+    border-radius: 5px;
+    border: 0px;
+}
+.reset{
+    margin: 20px 0 0 100px;
+}
+.submit{
+    margin-left: 50px;
+}
+.LoginPage{
+    border: 2px solid white;
+    height: 400px;
+    width: 500px;
+    margin: auto;
+    border-radius: 10px;
+    margin-top: 100px;
+}
